@@ -1,0 +1,58 @@
+# היכל המילים (The Word Hall)
+
+This is a client-side web application designed for learning and managing English vocabulary. It uses static JSON files as a data source and saves all user progress directly in the browser's `localStorage`. This project is built with vanilla HTML, CSS, and JavaScript, making it lightweight and easy to deploy on any static hosting service.
+
+
+
+## ✨ Features
+
+* **Interactive Word Cards:** Displays words with their meaning, an example sentence, and difficulty level.
+* **Text-to-Speech (TTS):** Pronounces any word with the click of a button.
+* **Adjustable Speed:** A slider allows you to control the speed of the speech.
+* **Multi-User Support:** Supports up to 3 user profiles, with progress saved separately for each.
+* **Progress Tracking:** Mark words as "known" to track your learning progress.
+* **Advanced Filtering System:**
+    * Filter words by their difficulty level.
+    * Filter the view to show all words, only new words, or only learned words.
+* **YouGlish Integration:** Opens a new tab with YouGlish.com to show the selected word used in real-world videos.
+
+## 🛠️ Tech Stack
+
+* **Frontend:** HTML5, CSS3, Vanilla JavaScript
+* **Data Source:** Static JSON files
+* **State Management:** Browser `localStorage` API
+* **Speech Synthesis:** Browser Web Speech API
+
+## 🚀 Running the Project Locally
+
+Because this application uses the `fetch` API to load local JSON files, you cannot run it by simply opening the `index.html` file in your browser (due to CORS security policies). You must serve the files from a local web server.
+
+Here are two easy ways to do this:
+
+### 1. Using VS Code Live Server (Recommended)
+
+1.  Install the **Live Server** extension from the Visual Studio Code Marketplace.
+2.  Open the project folder in VS Code.
+3.  Right-click on `index.html` and select "Open with Live Server".
+
+### 2. Using the Terminal
+
+1.  Open your terminal or command prompt.
+2.  Navigate to the project's root directory (`word-app`).
+3.  Run one of the following commands (depending on what you have installed):
+
+    ```bash
+    # If you have Python 3
+    python3 -m http.server
+
+    # Or, if you have Node.js
+    npx serve
+    ```
+4.  Open your browser and go to `http://localhost:8000` (for Python) or the address provided by `serve`.
+
+
+## ☁️ Deployment
+
+This project is a static site and can be deployed easily to services like Netlify, Vercel, or GitHub Pages.
+
+For **Netlify**, the recommended method is to connect your GitHub repository for continuous deployment. Alternatively, you can simply drag and drop the entire project folder onto the Netlify "Sites" page for a manual deployment.
