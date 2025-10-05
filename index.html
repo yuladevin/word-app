@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>היכל המילים</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="app-header" class="app-header">
+        <h1 id="main-title">טוען...</h1>
+        <p id="main-description"></p>
+        
+        <div class="controls-panel">
+            <div class="control-group">
+                <label for="user-select">משתמש:</label>
+                <select id="user-select">
+                    <option value="user1">משתמש 1</option>
+                    <option value="user2">משתמש 2</option>
+                    <option value="user3">משתמש 3</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="level-filter">רמת קושי:</label>
+                <select id="level-filter">
+                    <option value="all">כל הרמות</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="known-filter">הצגת מילים:</label>
+                <select id="known-filter">
+                    <option value="all">הצג הכל</option>
+                    <option value="new">חדשות בלבד</option>
+                    <option value="known">נלמדות בלבד</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="rate-control">מהירות דיבור:</label>
+                <input type="range" id="rate-control" min="0.5" max="1.5" value="1" step="0.1">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="word-grid" class="word-grid">
+            </div>
+    </main>
+    
+    <div class="dev-credit">
+        <a href="https://github.com/yuladevin" target="_blank">
+            Yuli <span class="dev-brand">DEV</span>in - Full Stack Senior Developer
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

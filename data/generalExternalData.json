@@ -1,0 +1,28 @@
+{
+    "columnsName": [
+        "רמת השליטה",
+        "מילה",
+        "פירוש",
+        "משפט לדוגמה",
+        "דרגת קושי",
+        "הוסיפו הערה"
+    ],
+    "mainBarText": "היכל המילים - מאגר המילים האינטראקטיבי של מכון נועם",
+    "studyUnitsExplanation": "",
+    "descriptionHeaderHeadline": "היכל המילים",
+    "descriptionHeaderContent": "כאן תוכלו לנהל את לימוד המילים שלכם בצורה מסודרת ואינטראקטיבית. המאגר כולל כ-3,000 מילים ומתעדכן לעיתים קרובות. באמצעות מאגר המילים האינטראקטיבי שלנו תוכלו ללמוד בנוחות את המילים הנדרשות לבחינה ולעקוב בקלות אחר ההתקדמות שלכם.",
+    "multipleChoiceInstructionsText": "<p style=\"font-size: 20px; text-align: right;\"><strong>מטרת המשחק:</strong></p>\n<p style=\"text-align: right;\">בכל שאלה תופיע מילה מתוך המאגר, ותתבקשו לבחור בפירוש המתאים לה. אם תצליחו בניסיון הראשון המילה תצבור כוכב. אם לא תצליחו, תקבלו רמז והזדמנות נוספת לענות. בסוף כל סיבוב הכוכבים שנצברו יתעדכנו אוטומטית בהיכל המילים.</p>\n<p style=\"text-align: right;\"><strong>בכל סיבוב יש 12 שאלות, והזמן המוקצב לכל שאלה הוא 15 שניות.</strong></p>",
+    "multipleChoiceGameHeadline": "תרגול",
+    "withGame": true,
+    "multipleChoiceGameTotalQuestions": 12,
+    "multipleChoiceQuestionTimeInSeconds": 15,
+    "externalName": "היכל המילים",
+    "instructionsText": "<p style=\"direction: rtl;\">היכל המילים הוא מאגר המילים האינטראקטיבי שלנו. כאן תוכלו לנהל את לימוד המילים שלכם בפשטות ובנוחות.<br /><br />לפני שאתם מתחילים ללמוד מילים, צפו בסרטון הדרכה קצר:</p>\n<div style=\"padding: 47.71% 0 0 0; position: relative;\"><iframe src=\"https://player.vimeo.com/video/960259221?h=d24225b382&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" title=\"סרטון הדרכה - היכל המילים\"></iframe></div>",
+    "id": 506053,
+    "name": "vocabulary_dashboard",
+    "urlSegment": "vocabulary_dashboard",
+    "level": 4,
+    "path": "-1,1189,178862,506052,506053",
+    "key": "3fe30946-96cf-4cdc-9639-899bc51c5332",
+    "contentType": "vocabularyDashboard"
+}
